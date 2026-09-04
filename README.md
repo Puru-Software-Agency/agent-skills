@@ -10,14 +10,26 @@ Repository ini berisi kumpulan custom skills untuk AI Agent (seperti Google Anti
 - **Tailwind Design System** (`tailwind-design-system_SKILL.md`): Aturan & komponen Tailwind CSS.
 - **To PRD** (`to-prd_SKILL.md`): Template pembuatan Product Requirement Document (PRD).
 
-## Cara Penggunaan di Device Lain
+## Cara Sinkronisasi Skill
 
-### Clone Repository
+### Menambah/Update Skill Baru dari Device Ini
+Setiap kali Anda menambah file skill baru, Anda tinggal menjalankan script helper `sync.ps1` di PowerShell:
+```powershell
+.\sync.ps1 "Menambahkan skill X"
+```
+*Atau secara manual:*
 ```bash
-git clone https://github.com/yoga220802/<nama-repo>.git
+git add .
+git commit -m "Tambah skill baru"
+git push origin main
 ```
 
-### Update/Pull Perubahan
+### Mengambil Update di Device Lain
 ```bash
 git pull origin main
+```
+
+### Clone Pertama kali di Device Baru
+```bash
+git clone https://github.com/yoga220802/<nama-repo>.git
 ```
