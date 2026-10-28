@@ -1,0 +1,4 @@
+# Local agent junction folders (generated via install.ps1)
+.agent/
+.agents/
+.claude/
