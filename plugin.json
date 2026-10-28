@@ -1,3 +1,6 @@
 {
-  "name": "agent-skills"
+  "name": "agent-skills",
+  "displayName": "Agent Skills Collection",
+  "description": "Koleksi 35 custom skills tingkat lanjut untuk Google Antigravity (AGY), Claude Code, Cursor, dan AI Coding Agents.",
+  "version": "1.1.0"
 }
