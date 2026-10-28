@@ -28,6 +28,7 @@ D:\AGENT-SKILLS\
 - **Brainstorming** (`skills/brainstorming/SKILL.md`): Eksplorasi ide dan konseptualisasi proyek/fitur.
 - **Brand Guidelines** (`skills/brand-guidelines/SKILL.md`): Standar warna, tipografi, dan gaya visual.
 - **Copywriting** (`skills/copywriting/SKILL.md`): Penulisan copy persuasif dan konten pemasaran.
+- **Create Design** (`skills/create-design/SKILL.md`): Membuat atau memperbarui dokumen panduan sistem desain `DESIGN.md`.
 - **Design Taste Frontend** (`skills/design-taste-frontend/SKILL.md`): Polishing dan standar estetika antarmuka UI.
 - **Doc Co-Authoring** (`skills/doc-coauthoring/SKILL.md`): Penulisan bersama dokumen teknis dan spesifikasi.
 - **Emil Design Eng** (`skills/emil-design-eng/SKILL.md`): Engineering design sistem interaksi canggih.
