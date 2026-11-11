@@ -2,3 +2,9 @@
 .agent/
 .agents/
 .claude/
+
+# Binary documents
+*.pdf
+
+# Dependencies
+node_modules/

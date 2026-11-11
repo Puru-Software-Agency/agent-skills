@@ -1,6 +1,6 @@
 # Agent Skills Collection
 
-Kumpulan **35 Custom Skills** tingkat lanjut untuk AI Agent (**Google Antigravity / AGY**, Claude Code, Cursor, Codex, OpenCode) yang distandarkan dan disatukan dalam satu direktori tunggal untuk reusability maksimal di berbagai project dan device.
+Kumpulan **54 Custom Skills** tingkat lanjut untuk AI Agent (**Google Antigravity / AGY**, Claude Code, Cursor, Codex, OpenCode) yang distandarkan dan disatukan dalam satu direktori tunggal untuk reusability maksimal di berbagai project dan device.
 
 ---
 
@@ -15,7 +15,7 @@ AGENT-SKILLS/
 ├── sync.ps1                  # Helper Git sync (Add, Commit, Push)
 ├── .gitignore                # Filter file lokal/OS
 ├── README.md                 # Dokumentasi katalog skill
-└── skills/                   # Direktori tunggal seluruh skill (35 skills)
+└── skills/                   # Direktori tunggal seluruh skill (54 skills)
     ├── ai-image-generation/SKILL.md
     ├── ai-seo/SKILL.md
     ├── animate/SKILL.md
@@ -78,9 +78,20 @@ AGENT-SKILLS/
 - **Theme Factory** (`skills/theme-factory/SKILL.md`): Pembuatan dan pengaturan tema warna/desain.
 - **To PRD** (`skills/to-prd/SKILL.md`): Template pembuatan Product Requirement Document (PRD).
 - **Web Design Guidelines** (`skills/web-design-guidelines/SKILL.md`): Panduan UX/UI website modern.
-## Katalog Skill (35 Skills)
+## Katalog Skill (54 Skills)
 
-### 1. UI/UX Architecture & Interface Design
+### 1. Refactoring UI Suite (Tactical Interface Design)
+- **[Refactoring UI](skills/refactoring-ui/SKILL.md)**: Master orchestrator untuk perancangan dan audit UI berbasis 7-pass quick audit dan routing modul spesifik.
+- **[UI Feature Workflow](skills/ui-feature-workflow/SKILL.md)**: Scoping fitur dari tugas utama user, grayscale prototyping, personality matrix, dan pessimistic edge cases.
+- **[UI Visual Hierarchy](skills/ui-visual-hierarchy/SKILL.md)**: Perbaikan urutan scan mata, de-emphasizing elemen sekunder, eliminasi label berlebih, dan penjinakan tombol destruktif.
+- **[UI Spacing & Layout](skills/ui-spacing-layout/SKILL.md)**: Skala jarak non-linear (4–128px), Proximity Law, pembatasan kanvas form, dan layout statis-fluid.
+- **[UI Typography](skills/ui-typography/SKILL.md)**: Handcrafted type scale, inversi line-height, dynamic letter-spacing/tracking, tabular numbers, dan baseline alignment.
+- **[UI Color System](skills/ui-color-system/SKILL.md)**: HSL color mechanics, palet 50–900, Hue Rotation Principle (perceived brightness), tinted greys, dan accessible status badges.
+- **[UI Depth & Elevation](skills/ui-depth-elevation/SKILL.md)**: Simulasi sumber cahaya dari atas, formula two-part shadow (ambient + contact), sistem elevasi 4-tier, dan kedalaman flat design.
+- **[UI Image Integration](skills/ui-image-integration/SKILL.md)**: Proteksi kontras teks di atas foto (scrim/dampening), aturan intended size, dan defensive inner hairline ring untuk avatar/UGC.
+- **[UI Finishing & States](skills/ui-finishing-states/SKILL.md)**: Menghilangkan border prison, aksen border 3–4px, supercharged default controls, dan actionable empty states.
+
+### 2. UI/UX Architecture & Interface Design
 - **[Apple Design](skills/apple-design/SKILL.md)**: Prinsip desain antarmuka Apple, fluid physical motion, spring physics, depth, dan gesture-driven UI.
 - **[Design an Interface](skills/design-an-interface/SKILL.md)**: Eksplorasi berbagai alternatif arsitektur antarmuka & modul API ("Design It Twice").
 - **[High-End Visual Design](skills/high-end-visual-design/SKILL.md)**: Standar desain visual agensi tingkat dunia (Awwwards-tier), tipografi, spacing, dan layout mahal.
@@ -91,7 +102,7 @@ AGENT-SKILLS/
 - **[UI/UX Pro Max](skills/ui-ux-pro-max/SKILL.md)**: Database desain komprehensif (50+ styles, 97 color palettes, 57 font pairings, 99 UX guidelines, 25 chart types).
 - **[Web Design Guidelines](skills/web-design-guidelines/SKILL.md)**: Review kepatuhan standar Web Interface Guidelines, UX, dan aksesibilitas (WCAG).
 
-### 2. Frontend Engineering & Motion
+### 3. Frontend Engineering & Motion
 - **[Animate](skills/animate/SKILL.md)**: Perancangan animasi web dari nol, pemilihan kurva bezier, durasi, interruptibility, dan exit motion.
 - **[Design Motion Principles](skills/design-motion-principles/SKILL.md)**: Arsitektur motion interaktif berbasis teknik Emil Kowalski, Jakub Krehel, dan Jhey Tompkins.
 - **[Design Taste Frontend](skills/design-taste-frontend/SKILL.md)**: Pendekatan anti-slop untuk landing page dan web app dengan visual terpoles dan non-templated.
@@ -99,37 +110,49 @@ AGENT-SKILLS/
 - **[Frontend Design](skills/frontend-design/SKILL.md)**: Standardisasi pembuatan komponen frontend produksi dengan estetika tinggi.
 - **[Shadcn UI](skills/shadcn/SKILL.md)**: Manajemen komponen Shadcn UI (install, styling, perbaikan, dan integrasi Tailwind).
 - **[Web Artifacts Builder](skills/web-artifacts-builder/SKILL.md)**: Pembuatan artifact HTML/React interaktif multi-komponen dengan state management.
+- **[Playwright](skills/playwright/SKILL.md)**: Otomasi browser penuh, auto-deteksi dev server, pengujian fungsional web, dan validasi visual/UX.
 
-### 3. Design System & Theming
+### 4. Design System & Theming
 - **[Extract Design System](skills/extract-design-system/SKILL.md)**: Ekstraksi token warna, tipografi, dan radius dari situs web publik.
 - **[Tailwind Design System](skills/tailwind-design-system/SKILL.md)**: Pembangunan scalable design system dengan Tailwind CSS v4 dan design tokens.
 - **[Theme Factory](skills/theme-factory/SKILL.md)**: Pengaturan tema warna dan tipografi otomatis untuk slide, dokumen, dan landing page.
 
-### 4. Figma to Code
+### 5. Figma to Code
 - **[Figma](skills/figma/SKILL.md)**: Integrasi context desain, pengambilan token, variabel, dan screenshot dari Figma.
 - **[Figma Implement Design](skills/figma-implement-design/SKILL.md)**: Penerjemahan desain Figma ke kode aplikasi siap pakai dengan akurasi 1:1.
 
-### 5. AI & Image Generation
+### 6. AI & Image Generation
 - **[AI Image Generation](skills/ai-image-generation/SKILL.md)**: Pembuatan gambar dengan prompt cerdas via model FLUX, GPT-Image-2, Gemini 3 Pro Image, Seedream, dan Grok.
 - **[ImageGen Frontend Mobile](skills/imagegen-frontend-mobile/SKILL.md)**: Art direction aset visual & mockup flow aplikasi mobile (iOS/Android) yang konsisten dan siap coding.
 - **[ImageGen Frontend Web](skills/imagegen-frontend-web/SKILL.md)**: Panduan pembuatan gambar per-section landing page dengan komposisi seimbang dan palet terkontrol.
 
-### 6. SEO, Copywriting & Content
+### 7. SEO, Copywriting & Content
 - **[AI SEO](skills/ai-seo/SKILL.md)**: Optimasi konten agar disitasi oleh AI Search Engines (Perplexity, ChatGPT Search, Google AI Overviews).
 - **[Copywriting](skills/copywriting/SKILL.md)**: Penulisan copy persuasif dan konten pemasaran berfokus konversi.
 - **[Humanizer](skills/humanizer/SKILL.md)**: Menghapus pola tulisan kaku AI agar teks terdengar natural dan otentik seperti tulisan manusia.
 - **[SEO Audit](skills/seo-audit/SKILL.md)**: Audit teknis on-page SEO, Core Web Vitals, metadata, dan crawlability.
 
-### 7. Product Discovery & Ideation
+### 8. Product Discovery & Ideation
 - **[Brainstorming](skills/brainstorming/SKILL.md)**: Eksplorasi kebutuhan user, perancangan ide, dan konseptualisasi sebelum implementasi.
 - **[Doc Co-Authoring](skills/doc-coauthoring/SKILL.md)**: Penulisan terstruktur dokumen teknis, proposal fitur, dan spesifikasi sistem.
 - **[To PRD](skills/to-prd/SKILL.md)**: Penyusunan Product Requirement Document (PRD) otomatis dari diskusi sesi kerja.
+- **[Grilling](skills/grilling/SKILL.md)**: Interview intensif memetakan decision tree dan menguji asumsi rencana/arsitektur secara kritis.
+- **[Teach](skills/teach/SKILL.md)**: Pembelajaran interaktif langkah-demi-langkah dengan learning record, glossaries, dan mission format.
 
-### 8. Security, Quality & Observability
+### 9. Security, Quality & Observability
 - **[Brand Guidelines](skills/brand-guidelines/SKILL.md)**: Panduan warna, tipografi, dan gaya visual resmi (Anthropic format).
 - **[Security Best Practices](skills/security-best-practices/SKILL.md)**: Panduan penulisan kode aman berdasarkan bahasa dan framework.
 - **[Security Threat Model](skills/security-threat-model/SKILL.md)**: Pemodelan ancaman keamanan, evaluasi celah, dan mitigasi risiko aplikasi.
 - **[Sentry](skills/sentry/SKILL.md)**: Pemantauan error dan query issue produksi menggunakan Sentry CLI.
+
+### 10. Senior Pragmatism & Minimalist Engineering (Ponytail Suite)
+- **[Ponytail](skills/ponytail/SKILL.md)**: Mode lazy senior developer: solusi paling minimal yang menyelesaikan masalah seutuhnya tanpa over-engineering (YAGNI).
+- **[Ponytail Review](skills/ponytail-review/SKILL.md)**: Review kualitas perubahan kode: memeriksa logika, keamanan, kebutuhan tiap baris, dan eliminasi bloat.
+- **[Ponytail Audit](skills/ponytail-audit/SKILL.md)**: Audit repositori menyeluruh untuk menemukan bug, security holes, dead code, dan bloat tanpa mengubah kode.
+- **[Ponytail Debt](skills/ponytail-debt/SKILL.md)**: Identifikasi dan penyelesaian technical debt dengan intervensi kode sesedikit mungkin.
+- **[Ponytail Gain](skills/ponytail-gain/SKILL.md)**: Optimalisasi leverage dan performa kode dengan usaha implementasi minimum.
+- **[Ponytail Help](skills/ponytail-help/SKILL.md)**: Panduan cepat memilih strategi penyederhanaan kode dan level ponytail (lite, full, ultra).
+
 
 ---
 
